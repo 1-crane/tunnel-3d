@@ -53,18 +53,28 @@
 <p align="center">
   <img src="./assets/screenshots/import-home.png" alt="多源数据导入首页" width="760">
 </p>
+<p align="center"><sub>统一导入入口：选择已有数据集或进入对应生成流程</sub></p>
 
-<p align="center">
-  <img src="./assets/screenshots/mine-import-form.png" alt="矿山法数据生成表单" width="760">
-</p>
+<details>
+  <summary><strong>01 · 矿山法数据生成</strong>　从壁面纹理与病害数据生成标准化隧道数据</summary>
+  <p align="center">
+    <img src="./assets/screenshots/mine-import-form.png" alt="矿山法数据生成表单" width="760">
+  </p>
+</details>
 
-<p align="center">
-  <img src="./assets/screenshots/shield-import-form.png" alt="盾构法数据生成表单" width="760">
-</p>
+<details>
+  <summary><strong>02 · 盾构法数据生成</strong>　兼容盾构纹理、道床纹理与病害检测结果</summary>
+  <p align="center">
+    <img src="./assets/screenshots/shield-import-form.png" alt="盾构法数据生成表单" width="760">
+  </p>
+</details>
 
-<p align="center">
-  <img src="./assets/screenshots/laser-import-form.png" alt="激光扫描数据导入表单" width="760">
-</p>
+<details>
+  <summary><strong>03 · 激光扫描数据导入</strong>　解析 TLS-D 项目并读取 slice、image、track 数据</summary>
+  <p align="center">
+    <img src="./assets/screenshots/laser-import-form.png" alt="激光扫描数据导入表单" width="760">
+  </p>
+</details>
 
 ### 2. 多类型隧道场景重建
 

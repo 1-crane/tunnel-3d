@@ -45,18 +45,15 @@
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/mine-import-form.png" alt="矿山法数据生成表单" width="32%" align="top">
-  <img src="./assets/screenshots/shield-import-form.png" alt="盾构法数据生成表单" width="32%" align="top">
-  <img src="./assets/screenshots/laser-import-form.png" alt="激光扫描数据导入表单" width="32%" align="top">
+  <img src="./assets/screenshots/mine-import-form.png" alt="矿山法数据生成表单" width="49%" align="top">
+  <img src="./assets/screenshots/shield-import-form.png" alt="盾构法数据生成表单" width="49%" align="top">
 </p>
-
-纹理文件的里程区间、分辨率与环号由导入器解析，而不是散落在场景代码中。下面展示了高铁与盾构数据的两类命名约定。
 
 <p align="center">
-  <img src="./assets/screenshots/highspeed-texture-convention.png" alt="高铁隧道纹理命名约定" width="32%" align="top">
-  <img src="./assets/screenshots/shield-texture-convention-a.png" alt="盾构纹理命名约定一" width="32%" align="top">
-  <img src="./assets/screenshots/shield-texture-convention-b.png" alt="盾构纹理命名约定二" width="32%" align="top">
+  <img src="./assets/screenshots/laser-import-form.png" alt="激光扫描数据导入表单" width="64%">
 </p>
+
+纹理文件的里程区间、分辨率与环号由导入器解析，而不是散落在场景代码中。
 
 ### 2. 多类型隧道场景重建
 
@@ -77,8 +74,7 @@
 病害适配层将不同来源的裂缝、渗漏水、混凝土浇筑缝等记录统一到里程与管片局部坐标系，再生成可拾取的标注和路径。点击标注可查看病害类型、环号、起止里程、长度或面积；当前环的病害列表也可以集中展开，支持从“全局巡检”下钻到“单条复核”。
 
 <p align="center">
-  <img src="./assets/screenshots/disease-detail.png" alt="单条病害详情" width="43%" align="top">
-  <img src="./assets/screenshots/ring-disease-list.png" alt="当前环病害列表" width="43%" align="top">
+  <img src="./assets/screenshots/disease-detail.png" alt="单条病害详情" width="56%">
 </p>
 
 ### 4. 里程导航与状态分析
@@ -88,11 +84,6 @@
 <p align="center">
   <img src="./assets/screenshots/convergence-chart.png" alt="收敛变形趋势曲线" width="48%" align="top">
   <img src="./assets/screenshots/viewer-overview.png" alt="三维场景与里程导航" width="48%" align="top">
-</p>
-
-<p align="center">
-  <img src="./assets/screenshots/telemetry-panel.png" alt="实时里程与结构信息面板" width="28%" align="top">
-  <img src="./assets/screenshots/view-menu.png" alt="视图与漫游参数面板" width="28%" align="top">
 </p>
 
 ## 数据管线
@@ -163,11 +154,6 @@ flowchart TB
         ↓
 切换数据集或释放当前场景资源
 ```
-
-<p align="center">
-  <img src="./assets/screenshots/desktop-launch.png" alt="桌面客户端入口" width="46%" align="top">
-  <img src="./assets/screenshots/import-navigation.png" alt="导入模式导航" width="22%" align="top">
-</p>
 
 ## 技术栈
 
